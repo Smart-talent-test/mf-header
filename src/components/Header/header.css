@@ -1,0 +1,51 @@
+.header-wrapper {
+    align-items: center;
+    background-color: #17726D;
+    border-bottom: 0.1rem solid #e0e0e0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 600px) {
+    .header-wrapper {
+      min-height: 8rem;
+      padding: 2rem;
+    }
+  }
+  
+  .dashboard-logo {
+    max-width: 12.4rem;
+  }
+  
+  .user-profile {
+    align-items: center;
+    display: flex;
+  }
+  
+  .user-profile img {
+    border-radius: 50%;
+    height: 3rem;
+    margin-right: 1rem;
+    width: 3rem;
+  }
+  
+  @media (min-width: 600px) {
+    .user-profile img {
+      width: 3.8rem;
+      height: 3.8rem;
+    }
+  }
+  
+  .responsive-menu {
+    cursor: pointer;
+    display: flex;
+    width: 3rem;
+  }
+  
+  @media (min-width: 600px) {
+    .responsive-menu {
+      display: none;
+    }
+  }
