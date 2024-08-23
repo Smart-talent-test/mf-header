@@ -11,6 +11,7 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./Header": "./src/components/Header",
+        "./Sidebar": "./src/components/Sidebar",
       },
       shared: ["react", "react-dom", "jotai"],
     }),
